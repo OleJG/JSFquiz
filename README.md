@@ -1,2 +1,0 @@
-# JSFquiz
-javaScript Fundamentals Quiz
