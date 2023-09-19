@@ -100,8 +100,8 @@ function displayHighScores() {
     }
     for (let i = 0; i < highScores.length; i++) {
         const scoreEntry = highScores[i];
-        const li = document.createElement('li');
-        li.textContent = `${scoreEntry.initials}: ${scoreEntry.score}`;
-        highscoresList.appendChild(li);
+        const ol = document.createElement('ol');
+        ol.textContent = `${scoreEntry.initials}: ${scoreEntry.score}`;
+        highscoresList.appendChild(ol);
     }
 }
