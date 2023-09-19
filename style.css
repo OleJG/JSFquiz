@@ -4,7 +4,7 @@ body {
 }
 
 .quiz-container {
-    margin: 20px auto;
+    margin: 50px auto;
     max-width: 500px;
 }
 
@@ -12,6 +12,9 @@ button {
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
+    background-color: blue;
+    color:azure;
+    border-radius: 5px;
 }
 
 #question-container {
@@ -23,11 +26,11 @@ button {
 }
 
 .highscore-container {
-    float: right;
-    margin-right: 20px;
+    float: center;
+    margin-right: 0px;
 }
 
 ol {
     list-style-type: decimal;
-    padding-left: 20px;
+    padding-left: 50px;
 }
